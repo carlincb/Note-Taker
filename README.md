@@ -83,6 +83,8 @@ Please see below for examples of this application's usage:
 
 ### Video of Usage:
 
+![5](assets/images/notetaker.gif)
+
 ## Credits
 
 - https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true#deploy-the-app
@@ -150,7 +152,7 @@ Tests can be completed using [Jest](https://www.npmjs.com/package/jest).
 
 ## Links
 
-[Heroku Live Link]()
+[Heroku Live Link](https://guarded-tundra-54477.herokuapp.com/)
 
 [GitHub Link](https://github.com/carlincb/Note-Taker)
 

@@ -5,7 +5,7 @@ const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
 
 // Defining the port we want the server to run on
-const PORT = process.env.port || 3001;
+const PORT = process.env.PORT || 3001;
 
 // Defining variable so that express can be used
 const app = express();
@@ -69,5 +69,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(PORT, () =>
-  console.log(`App listening at http://localhost:${PORT} `)
+  console.log(`App listening on ${PORT} `)
 );

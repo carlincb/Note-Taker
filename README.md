@@ -50,8 +50,6 @@ No installation necessary. This application can be run from the browser using th
 
 If you want to clone the Note Taker to your computer you can follow these guidelines:
 
-Here are some guidelines to help you get started:
-
 - [Fork the Repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
 ```

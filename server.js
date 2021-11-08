@@ -1,10 +1,13 @@
+// Defining variables to bring in required packages
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
 
+// Defining the port we want the server to run on
 const PORT = process.env.port || 3001;
 
+// Defining variable so that express can be used
 const app = express();
 
 // Middleware for parsing JSON and urlencoded form data

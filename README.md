@@ -46,32 +46,52 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Installation
 
+No installation necessary. This application can be run from the browser using the live link in the "Links" section.
+
+If you want to clone the Note Taker to your computer you can follow these guidelines:
+
 Here are some guidelines to help you get started:
 
-- Installation can completed by forking and cloning this repository onto your desktop.
+- [Fork the Repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
-- Your application should use [Express](https://expressjs.com/) for and [Inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user. The application will be invoked by using the following command:
+```
+git clone https://github.com/carlincb/Note-Taker
+```
+
+- Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
+
+```
+npm install
+```
+
+- The application will be invoked by using the following command:
 
 ```bash
 node index.js
 ```
 
-- Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
-
-- Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
-
 ## Usage
 
-This application can be run using the terminal with Node.js.<br/>Please see below for examples of my application:
+Please see below for examples of this application's usage:
 
-### Screenshot of application:
+### Screenshots of application:
 
-![1]()
+![1](assets/images/1.png)
+![2](assets/images/2.png)
+![3](assets/images/3.png)
+![4](assets/images/4.png)
 
 ### Video of Usage:
 
 ## Credits
 
+- https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true#deploy-the-app
+- https://www.section.io/engineering-education/a-raw-nodejs-rest-api-without-frameworks-such-as-express/
+- https://www.tabnine.com/code/javascript/functions/express/Router/delete
+- https://expressjs.com/en/guide/routing.html
+- https://www.youtube.com/watch?v=K9jTQPb0Xso&ab_channel=BrettM
+- https://www.youtube.com/watch?v=aZ16pkrMkZE&ab_channel=TraversyMedia
+- https://www.youtube.com/watch?v=pKd0Rpw7O48&t=3153s&ab_channel=ProgrammingwithMosh
 - https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
 ## License
